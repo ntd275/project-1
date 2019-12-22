@@ -4,7 +4,7 @@ import pandas as pd
 import joblib
 import matplotlib.pyplot as plt
 
-tranningset = pd.read_csv("tranningset.csv")
+tranningset = pd.read_csv("trainningset.csv")
 
 Xtrain = tranningset[["JPY","SP500"]].values
 ytrain = tranningset["Direction"].values
